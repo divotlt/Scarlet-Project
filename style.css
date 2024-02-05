@@ -2,20 +2,3 @@ html {
 background: rgb(2,0,36);
 background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 67%, rgba(0,82,14,1) 100%);
 }
-
-body.dark-mode {
-    background-color: #ffffff;
-    color: #1c1e21;
-}
-
-header.dark-mode {
-    background-color: #3a3c3d;
-}
-
-main.dark-mode {
-    background-color: #f0f0f0;
-}
-
-footer.dark-mode {
-    background-color: #3a3c3d;
-}
