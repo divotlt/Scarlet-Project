@@ -1,2 +1,0 @@
-# Scarlet-Project
-🔗⛓
