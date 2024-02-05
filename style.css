@@ -1,5 +1,4 @@
-body {
-    font-size: 16px;
-    color: #fffff;
-    background-color: #40444b;
+html {
+background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 67%, rgba(82,0,0,1) 100%);
 }
