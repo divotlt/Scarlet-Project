@@ -1,41 +1,29 @@
-        body {
-            margin: 0;
-            padding: 0;
-            height: 200vh; /* At least twice the viewport height to test scrolling */
-        }        
-        .container {
-            width: 100%;
-            height: 100vh;
-            background: rgb(2,0,36);
-            background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 67%, rgba(82,0,0,1) 100%);                url("Icon_Scarlet.webp") no-repeat fixed center;
-            background-attachment: fixed;
-            background-size:cover;
-        }
-        .gradient-text {
-            font-size: 72px;
-            background: linear-gradient(135deg, rgba(2, 0, 36, 1) 0%, rgba(139, 139, 139, 1) 60%, rgba(255, 255, 255, 1) 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-          }
-          background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fsteamcommunity.com%2Fsharedfiles%2Ffiledetails%2F%3Fid%3D2427252388%26searchtext%3D&psig=AOvVaw1Cpq5i8yU1fhzJa7Q97xjN&ust=1707333786460000&source=images&cd=vfe&opi=89978449&ved=0CBMQjhxqFwoTCIDB1ay4l4QDFQAAAAAdAAAAABAO")
-          .triangle-container {
-            position: relative;
-            width: 200px; /*Adjust the width as needed*/
-            height: 200px; /*Adjust the height as needed*/
-          }
-          
-          .triangle {
-            width: 0;
-            height: 0;
-            border-bottom: 100px solid red; /*Adjust the size and color as needed*/
-            border-right: 100px solid transparent; /*Adjust the size as needed*/
-          }
-          
-          .text {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: white; /*Adjust the color as needed*/
-            font-size: 20px; /*Adjust the font size as needed*/
-          }
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 200px solid black;
+  position: relative;
+  transform: rotate(180deg);
+}
+
+.text {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+}
