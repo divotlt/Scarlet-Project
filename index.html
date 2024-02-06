@@ -4,20 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scarlet's Project</title>
-    <link rel="icon" type="image/png" href="https://i.imgur.com/PPmz1zM.png">
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <style>
         body {
             margin: 0;
             padding: 0;
-            height: 100vh; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000;
+        }
+        .triangle {
+            width: 0;
+            height: 0;
+            border-left: 100px solid transparent;
+            border-right: 100px solid transparent;
+            border-bottom: 200px solid red;
+            position: relative;
+        }
+        .text {
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-size: 24px;
+            font-family: Arial, sans-serif;
+        }
     </style>
 </head>
 <body>
-<div class="triangle-container">
-  <div class="triangle"></div>
-  <div class="text">Scarlet's Project</div>
-</div>
+    <div class="triangle">
+        <div class="text">Scarlet's Project</div>
+    </div>
 </body>
 </html>
