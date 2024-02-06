@@ -2,9 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <title>Scarlet's Project</title>
     <style>
+                .circle-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            border: none;
+            border-radius: 50%;
+            padding: 5px;
+            cursor: pointer;
+            box-shadow: 0 2px 10px rgba(255, 1, 1, 0.5);
+            z-index: 999; 
+        }
+
+        .circle-btn img {
+			width: 60px; 
+			height: 60px; 
+			border-radius: 50%;
+
+        }
+
+        .circle-btn:hover {
+            background-color: #0056b3;
+        }
+		
+		@media screen and (max-width: 700px) {
+   .circle-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            border: none;
+            border-radius: 50%;
+            padding: 5px;
+            cursor: pointer;
+            box-shadow: 0 2px 10px rgba(255, 1, 1, 0.5);
+            z-index: 999; 
+        }
+
+        .circle-btn img {
+			width: 40px; 
+			height: 40px; 
+			border-radius: 50%;
+
+        }
+
         body {
             margin: 0;
             padding: 0;
