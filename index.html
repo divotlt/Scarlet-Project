@@ -3,6 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Site</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Scarlet's Project</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 200vh; /* At least twice the viewport height to test scrolling */
+        }        
+        .container {
+            width: 100%;
+            height: 100vh;
+            background: rgb(2,0,36);
+            background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 67%, rgba(82,0,0,1) 100%);                url("Icon_Scarlet.webp") no-repeat fixed center;
+            background-size: cover;
+            background-image: url('Icon_Scarlet.webp');
 
+        }
+    </style>
+</head>
+<body>
+    <div class="container"></div> <!-- The container: Only one required -->
+</body>
+</html>
