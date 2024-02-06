@@ -18,22 +18,24 @@
             -webkit-text-fill-color: transparent;
           }
           background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fsteamcommunity.com%2Fsharedfiles%2Ffiledetails%2F%3Fid%3D2427252388%26searchtext%3D&psig=AOvVaw1Cpq5i8yU1fhzJa7Q97xjN&ust=1707333786460000&source=images&cd=vfe&opi=89978449&ved=0CBMQjhxqFwoTCIDB1ay4l4QDFQAAAAAdAAAAABAO")
-.triangle-container {
-  position: relative;
-}
-
-.triangle {
-  width: 0;
-  height: 0;
-  border-bottom: 100px solid red; /*Adjust the size and color as needed*/
-  border-right: 100px solid transparent; /*Adjust the size as needed*/
-}
-
-.text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white; /*Adjust the color as needed*/
-  font-size: 20px; /*Adjust the font size as needed*/
-}
+          .triangle-container {
+            position: relative;
+            width: 200px; /*Adjust the width as needed*/
+            height: 200px; /*Adjust the height as needed*/
+          }
+          
+          .triangle {
+            width: 0;
+            height: 0;
+            border-bottom: 100px solid red; /*Adjust the size and color as needed*/
+            border-right: 100px solid transparent; /*Adjust the size as needed*/
+          }
+          
+          .text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white; /*Adjust the color as needed*/
+            font-size: 20px; /*Adjust the font size as needed*/
+          }
