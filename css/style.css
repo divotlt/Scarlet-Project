@@ -27,3 +27,7 @@ body {
   font-size: 24px;
   font-family: Arial, sans-serif;
 }
+.background {
+            background: rgb(0,0,0);
+            background: linear-gradient(167deg, rgba(0,0,0,1) 0%, rgba(72,0,0,1) 100%);
+        }
